@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+
+# Obsidian machine-local state
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# Secrets and credentials never belong in note history
+.env
+.env.*
+*.key
+*.pem
+credentials.*
+secrets.*
+
+# Editor and temporary files
+*~
+*.swp
+*.tmp
