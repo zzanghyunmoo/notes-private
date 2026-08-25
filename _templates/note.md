@@ -4,7 +4,7 @@ created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: []
 status: seed
-visibility: private
+visibility: public
 ---
 
 # 제목

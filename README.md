@@ -1,22 +1,25 @@
-# Private Notes
+# Notes
 
-Obsidian으로 바로 열 수 있는 비공개 Markdown vault다. 이 저장소는 공개 블로그나
-workspace의 build input으로 연결하지 않는다.
+Obsidian으로 바로 열 수 있는 공개 Markdown vault다. 저장소 이름에는 과거의
+`notes-private`가 남아 있지만, 모든 tracked content는 처음부터 공개 가능한 자료로
+취급한다.
 
 ## 구조
 
 - `inbox/`: 아직 분류하지 않은 빠른 기록
 - `notes/`: 정리된 개인 지식
-- `assets/`: 비공개 첨부파일
-- `publish/`: 공개 후보 초안. 이 폴더에 있다고 자동 공개되지는 않는다.
+- `assets/`: 공개 가능한 첨부파일
+- `publish/`: 블로그 승격 후보 초안. 이 폴더에 있다고 자동 게시되지는 않는다.
 - `_templates/`: 노트 템플릿
 
 ## 작성 규칙
 
 - 가능한 한 표준 Markdown 링크를 사용한다.
-- token, private key, password, 복구 코드 같은 credential은 노트에 저장하지 않는다.
-- 공개할 글은 민감 정보와 private 링크를 제거해 별도 blog branch로 수동 승격한다.
-- 공개 저장소에는 이 vault의 remote, 로컬 경로, symlink, submodule을 추가하지 않는다.
+- token, private key, password, 복구 코드, 내부 host와 개인 로컬 경로를 저장하지 않는다.
+- 새 파일과 첨부파일은 commit 전에 공개 가능한지 확인한다.
+- 블로그 글은 검토 후 `blogs/`의 별도 branch와 PR 절차로 수동 승격한다. 이 vault를
+  블로그 build input이나 content loader로 직접 연결하지 않는다.
+- 이 저장소는 `zWorkspaces`의 `notes/` 서브모듈로 사용한다.
 
 ## 새 노트
 
