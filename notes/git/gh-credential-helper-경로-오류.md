@@ -55,5 +55,5 @@ git config --list --show-origin | grep credential
 
 ## 관련 자료
 
-- [워크트리 만들기](../notes/git/워크트리%20만들기.md)
+- [워크트리 만들기](./워크트리%20만들기.md)
 - [서브모듈 관리하기](./서브모듈%20관리하기.md)
