@@ -13,7 +13,9 @@
 ## 작성 규칙
 
 - 표준 Markdown 링크를 우선한다.
-- 새 노트는 `_templates/note.md`를 기준으로 `inbox/` 또는 `notes/`에 작성한다.
+- 새 노트와 `/learn` 정리 문서는 `_templates/note.md`를 기준으로 우선 `inbox/`에
+  작성한다. 이후 금요일 저녁이나 월요일 아침 등 사용자가 정리를 요청할 때 주제에
+  맞는 `notes/` 하위 폴더로 분류·이동한다.
 - `publish/`는 블로그 후보일 뿐 자동 게시 승인이 아니다.
 - 블로그는 이 저장소를 symlink, build input 또는 content loader로 연결하지 않는다.
   검토한 문서만 `zWorkspaces`의 `runbooks/public-notes-publishing.md`와 `blogs/`

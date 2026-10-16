@@ -23,5 +23,6 @@ Obsidian으로 바로 열 수 있는 공개 Markdown vault다. 저장소 이름�
 
 ## 새 노트
 
-`_templates/note.md`를 복사해 `inbox/` 또는 `notes/`에서 시작한다. Obsidian의
-Templates 플러그인을 쓸 경우 template folder를 `_templates`로 지정한다.
+`_templates/note.md`를 복사해 우선 `inbox/`에 작성한다. 이후 금요일 저녁이나
+월요일 아침 등 정리 시점에 주제에 맞는 `notes/` 하위 폴더로 분류·이동한다.
+Obsidian의 Templates 플러그인을 쓸 경우 template folder를 `_templates`로 지정한다.
